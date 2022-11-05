@@ -1,0 +1,8 @@
+<big> for big letters
+<small>
+<b>,<i>,<u> for bold, italic and underline text
+<sub> for subscript and <sup> for superscript
+<img> for image insertion .... inside that use src to insert link and use alt to give hint in case it does not load and use height to change height
+<br> id for next line
+<a> to insert links for other pages and websites use href for inserting the link
+<hr> horizontal ruler make a horizontal line to seperate sections on the page
