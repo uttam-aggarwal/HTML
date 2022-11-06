@@ -2,7 +2,31 @@
 <small>
 <b>,<i>,<u> for bold, italic and underline text
 <sub> for subscript and <sup> for superscript
-<img> for image insertion .... inside that use src to insert link and use alt to give hint in case it does not load and use height to change height
+<img> for image insertion .... inside that use ---src--- to insert link and use ---alt--- to give hint in case it does not load and use ---height--- to change height and ---target="_main"--- to redirect it into a new tab
 <br> id for next line
 <a> to insert links for other pages and websites use href for inserting the link
 <hr> horizontal ruler make a horizontal line to seperate sections on the page
+<header>,<main>,<footer> for headers and content and footers
+<section> doesn't have any effect on visual part but the backend 
+<article> for article
+<aside> for other contents such as ads
+<img> inside <a> make the image a clickable link
+<div> use as a container for other html tags
+----block tags in html are those which take full width of the screen such as div tag---
+<span> same use as div
+----inline elements those which take width which is only necesaary----
+<ol>,<ul> for orderd and unordered list , order have numbers while un have bullets ----inside it write <li> before different items of the list
+<table> to start a table, <tr>,<td>,<th> for table row, table data and table header,, <caption> to dispaly above t,able <thead>,<tbody> for layout --- no visual changes
+<form> tag to create a form 
+        <form action="/action.php">
+            <input type="text" placeholder="ENTER YOUR NAME"> ---- to input
+            <BR>
+            <input type="password" placeholder="ENTER YOUR PASSWORD">
+            <BR>
+            <label for="101"> --- you can click on button using the name only after using label
+            <input type="radio" value="class XI" name="class" id="101">class XI --- buttons
+            </label>
+            <label for="102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+            </label>
+        </form>
