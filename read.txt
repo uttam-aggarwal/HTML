@@ -30,3 +30,7 @@
             <input type="radio" value="class XII" name="class" id="102">class XII
             </label>
         </form>
+<div id='id1' group='group1'> groupipng elements(can be influenced all at the same time like changing colors) 
+<select> use for dropdown menu
+<iframe> to insert website inside website --- use embedede video on youtube to copy it
+<video> in it use src for link and write --controls-- for giving paly and other things on the video without it you won't be able to play the video --autoplay-- for autoplay ---loop-- to start the video again
