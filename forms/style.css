@@ -8,7 +8,7 @@
     height: 50px;
     width: 160px;
     background-color: orange;
-    border: black;
+    border: rgb(23, 107, 45);
     border-style: groove;
     border-radius: 10px;
     display: inline-block;
