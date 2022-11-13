@@ -12,6 +12,7 @@
     border-style: groove;
     border-radius: 10px;
     display: inline-block;
-    display: block;
+    display: inline;
+    
 
 }
