@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <!-- <style>
         body{}
     </style> -->
 </head>
+
 <body>
     <header>
-        <p class="heading">THIS IS A GOOGLE FORM</p>
+       <div class="navbar">
+        <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Help</li>
+        </ul>
+        </nav>
+       </div>
     </header>
     <main>
         <form action="/action.php">
+            <p class="heading">THIS IS A GOOGLE FORM</p>
             <section class="inputs">
-            <input type="text" placeholder="ENTER YOUR NAME">
-            <BR>
-            <input type="password" placeholder="ENTER YOUR PASSWORD">
+
+                <input type="text" placeholder="ENTER YOUR NAME">
+                <BR>
+                <input type="password" placeholder="ENTER YOUR PASSWORD">
+
             </section>
             <BR>
             <section class="class">
-            SELECT YOUR CLASS -- 
-            <label for="101">
-            <input type="radio" value="class XI" name="class" id="101">Class XI
-            </label>
-            <label for="102">
-            <input type="radio" value="class XII" name="class" id="102">Class XII
-            </label>
+                SELECT YOUR CLASS --
+                <label for="101">
+                    <input type="radio" value="class XI" name="class" id="101">Class XI
+                </label>
+                <label for="102">
+                    <input type="radio" value="class XII" name="class" id="102">Class XII
+                </label>
             </section>
         </form>
     </main>
@@ -40,7 +56,8 @@
             <br>
             <input type="checkbox" value="cookies" name="agreements">Accept the cookies
             <br>
-            <input type="checkbox" value="terms and conditions" name="agreements">Accept the <a href="t&c.html" target="_main"> terms and condition</a>
+            <input type="checkbox" value="terms and conditions" name="agreements">Accept the <a href="t&c.html"
+                target="_main"> terms and condition</a>
             <br>
             <input type="checkbox" value="18+" name="agreements">I AM 18+
         </section>
@@ -48,6 +65,7 @@
         <textarea name="feedback" id="101" placeholder="FEEDBACK" rows="8">WRITE YOUR VALUABLE FEEDBACK HERE</textarea>
     </footer>
     <br>
-        <input type="submit">
+    <input type="submit">
 </body>
+
 </html>
