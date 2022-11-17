@@ -3,39 +3,62 @@
     
 }
 .navbar{
-    padding: 15px;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    
+    /* padding: 15px;
     background-color: black;
     color: white;
     height: 18vh;
     width:100vw;
-    display: inline-block;
+    display: inline-block; */
  
 }
 li{
-    display: inline;
-    font-size: 8vh;
+    display: flex;
+    display: inline-block;
+    padding: 20px;
+    font-size: 3vh;
 
 }
 main{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    height: 70vh;
+    width: 100vh;
     background-color: blueviolet;
     font-size: 23px;
     font-family: 'Syne Mono','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .inputs{
-    margin: 6px;
+    /* margin: 6px;
     padding-top: 8px;
     padding-left: 4px;
     height: 82px;
     width: 295px;
-    left: 476px;
+    left: 476px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:12vh;
+    width: 15vw;
+    text-align: center;
     background-color: orange;
+    word-spacing: 2vh;
     border: rgb(23, 107, 45);
     border-style: groove;
     border-radius: 10px;
     position: relative;
+    /* flex-shrink: initial; */
     
 
+}
+.heading{
+    text-align: center;
+    align-content: center;
 }
 .agreements{
     margin: auto;
