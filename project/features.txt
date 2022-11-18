@@ -1,0 +1,7 @@
+to issue a book
+displaying all available books
+a page to check out popular book
+a page to request for a ebook
+login,register
+about library page
+

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    color: white;
+    width: 50vw;
+}
+.navbar{
+    width:50vw;
+    list-style: none;
+    display: flex;
+    background-color: black;
+    justify-content: end;
+}
+li{
+    border: 2px solid red;
+}
