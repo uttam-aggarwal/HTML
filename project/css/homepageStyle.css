@@ -1,21 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    background-image: url(images/gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg) ;
+ 
 }
-.navbar1 h1{
-    background-color: black;
-    color: black;
-    width:50vw;
-    height:30px;
-    float:left;
+main{
+    background-image: url(images/gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg);
+    min-height: calc(100vh - 9vh);
 
 }
-.navbar{
-    background-color: black;
+.navbar h1,.navbar ul{
+    background-color: transparent;
     color:black;
-    width:50vw;
+    width:49vw;
     height:30px;
+}
+.navbar,ul{
     list-style: none;
     display: flex;
     display: grid;
@@ -24,13 +23,18 @@
     justify-content: end;
     float:right;
 }
-.navbar li:hover{
+
+.navbar ul li:hover{
     font-weight: bolder;
     cursor: pointer;
 }
-li{
+.navbar ul li{
     border-right: 2px solid orange;
     border-radius: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 .image{
     display: inline-block;
@@ -44,8 +48,10 @@ li{
 .image img{
     width:40vw;
     margin-top: 4px;
-    border: 2px solid black
+    border: 2px solid black; 
 }
+
+
 .about{
     margin: 4vh;
     display: inline-block;
@@ -55,12 +61,22 @@ li{
     border: 2px solid black;
     border-style: inset;
 }
-.about1,.thelibrary{
+.about h2,.image h2{
     text-align: center;
     height:4vh;
 }
 .aboutlib{
     height:56vh;
     width:50vw;
+}
+
+.copyright{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+    
 }
 

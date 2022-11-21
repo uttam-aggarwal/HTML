@@ -1,0 +1,54 @@
+*{
+    margin: 0;padding: 0;
+}
+main{
+    background-image: url(images/kelly-sikkema-2q_frVRXWfQ-unsplash.jpg);background-size: 100vw ;
+    min-height: calc(100vh);
+    /* height:100vh; */
+    /* margin-left: 17vw; */
+}
+/* .l_navbar{
+    height:30px;
+}
+.l_navbar ul{
+    display:inline;
+} */
+.l_navbar h1,.l_navbar ul{
+    background-color: transparent;
+    color:black;
+    width:49vw;
+    height:30px;
+}
+.l_navbar,ul{
+    list-style: none;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1vw;
+    justify-content: end;
+    float:right;
+}
+.l_navbar ul li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.l_navbar ul li{
+    border-right: 2px solid orange;
+    border-radius: 0px;}
+a{
+    color: black;
+    text-decoration: none;
+}
+h2{
+    display: inline-block;
+    margin-left:55vw;
+    margin-top:125px;
+    transform: skew(20deg);
+}
+.login{
+    display: inline;
+    border: 5px solid black;
+    }
+.login input{
+    margin-top: 20px;
+}
