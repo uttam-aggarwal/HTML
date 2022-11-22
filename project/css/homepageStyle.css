@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,9 @@ main{
     background-image: url(images/gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg);
     min-height: calc(100vh - 9vh);
 
+}
+.navbar h1,.aboutlib{
+    font-family: "rubik distressed";
 }
 .navbar h1,.navbar ul{
     background-color: transparent;
@@ -68,6 +72,7 @@ a{
 .aboutlib{
     height:56vh;
     width:50vw;
+    overflow: scroll;
 }
 
 .copyright{

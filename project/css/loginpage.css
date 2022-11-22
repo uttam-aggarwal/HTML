@@ -4,15 +4,7 @@
 main{
     background-image: url(images/kelly-sikkema-2q_frVRXWfQ-unsplash.jpg);background-size: 100vw ;
     min-height: calc(100vh);
-    /* height:100vh; */
-    /* margin-left: 17vw; */
 }
-/* .l_navbar{
-    height:30px;
-}
-.l_navbar ul{
-    display:inline;
-} */
 .l_navbar h1,.l_navbar ul{
     background-color: transparent;
     color:black;
@@ -39,16 +31,43 @@ a{
     color: black;
     text-decoration: none;
 }
-h2{
-    display: inline-block;
-    margin-left:55vw;
-    margin-top:125px;
+.loginheading,.login,p{
+    display: inline;
     transform: skew(20deg);
 }
-.login{
-    display: inline;
-    border: 5px solid black;
-    }
-.login input{
-    margin-top: 20px;
+.loginheading{
+    position: fixed;
+    left:727px;
+    top:160px;
+}
+.login #p1{
+    position: fixed;
+    left:540px;
+    top:221px;
+}
+.login #user1{
+    position: fixed;
+    left:619px;
+    top:223px;
+}
+
+.login #p2{
+    position: fixed;
+    left:540px;
+    top:270px
+}
+.login #pass1{
+    position: fixed;
+    left:615px;
+    top:270px;
+}
+.login #p3{
+    position: fixed;
+    left: 615px;
+    top:300px;
+}
+.login .subbut{
+    position: fixed;
+    left:615px;
+    top:320px;
 }
