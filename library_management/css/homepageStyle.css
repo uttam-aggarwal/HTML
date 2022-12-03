@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ main{
 
 }
 .navbar h1,.aboutlib{
-    font-family: "rubik distressed";
+    font-family: "chango";
 }
 .navbar h1,.navbar ul{
     background-color: transparent;

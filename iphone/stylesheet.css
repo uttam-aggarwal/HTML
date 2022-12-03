@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black
+}
+.main_page{
+    min-height: 425px;
+}
+.des ul,
+h1 {
+    color: white;
+    list-style: none;
+}
+
+.iphone_img {
+    height: 336px;
+    position: relative;
+    top: 98px;
+    left: 229px;
+}
+
+.des ul {
+    display: grid;
+    position: relative;
+    top: -45px;
+    left: 666px;
+    width: 404px;
+    height: 61px;
+    justify-items: end;
+    opacity: 65%;
+}
+
+.main_page h1 {
+    display: inline;
+    position: relative;
+    top: -72px;
+    left: 429px;
+    font-size: 45px;
+    opacity: 70%;
+
+}
+
+.downarrow {
+    width: 30px;
+    position: relative;
+    top: 88px;
+    left: 629px;
+    opacity: 70%;
+}
+.description{
+    min-height: 676px;
+}
+
+.description h1 {
+    font-size: 30px;
+    opacity: 70%;
+    position: relative;
+    left: 51px;
+}
+
+.description ul {
+    color: white;
+    opacity: 65%;
+    position: relative;
+    display: grid;
+    left: 73px;
+}
+
+.Specification h1 {
+    top: 154px;
+}
+
+.Specification ul {
+    top: 175px;
+}
+
+.Chip h1 {
+    top: 226px;
+}
+
+.Chip ul {
+    top: 247px;
+}
+
+.Power_and_Battery h1 {
+    top: 278px;
+}
+
+.Power_and_Battery ul {
+    top: 299px;
+}
+
+.bottom {
+    min-height: 575px;
+}
+
+.trade,
+.ask {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.trade {
+    top: 215px;
+    left: 120px;
+    width: 393px;
+    height: 148px;
+}
+
+.ask {
+    top: 66px;
+    left: 650px;
+    width: 380px;
+    height: 148px;
+}
+.bottom a{
+    color: rgb(61, 176, 230);
+    text-decoration: none;
+}
+.bottom a:hover{
+    color: blueviolet;
+}
+.trade p, .ask p{
+    opacity:65%;
+}
+hr{
+    width:70vw;
+    position: relative;
+    left:145px;
+    border-width: 2px;
+}

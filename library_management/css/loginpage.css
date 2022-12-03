@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 *{
     margin: 0;padding: 0;
 }
 main{
     background-image: url(images/kelly-sikkema-2q_frVRXWfQ-unsplash.jpg);background-size: 100vw ;
     min-height: calc(100vh);
+}
+.l_navbar h1{
+    font-family: chango;
 }
 .l_navbar h1,.l_navbar ul{
     background-color: transparent;
@@ -31,9 +36,10 @@ a{
     color: black;
     text-decoration: none;
 }
-.loginheading,.login,p{
+.loginheading,.login,p,input{
     display: inline;
     transform: skew(20deg);
+    font-family: "syne mono";
 }
 .loginheading{
     position: fixed;
@@ -42,32 +48,33 @@ a{
 }
 .login #p1{
     position: fixed;
-    left:540px;
+    left:650px;
     top:221px;
 }
 .login #user1{
     position: fixed;
-    left:619px;
-    top:223px;
+    left:735px;
+    top:221px;
 }
 
 .login #p2{
     position: fixed;
-    left:540px;
+    left:659px;
     top:270px
 }
 .login #pass1{
     position: fixed;
-    left:615px;
+    left:745px;
     top:270px;
 }
 .login #p3{
     position: fixed;
-    left: 615px;
-    top:300px;
+    left: 877px;
+    top:294px;
+    font-size: 13px;
 }
 .login .subbut{
     position: fixed;
-    left:615px;
-    top:320px;
+    left:796px;
+    top:332px;
 }
